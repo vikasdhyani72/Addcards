@@ -1,0 +1,40 @@
+body {
+  font-family: cursive;
+  background-color: #f0f8ff;
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  color: #ff4500;
+}
+
+.container {
+  color: green;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  width: 100px;
+  height: 120px;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 36px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card:hover {
+  background-color: lightcoral;
+}
+
+.card:active {
+  background-color: darksalmon;
+}
